@@ -8,9 +8,20 @@
 
 body {
     font-family: 'Genty Demo', sans-serif;
-    background-color: #0052FF;
+    background: rgb(47,148,254);
+    background: -moz-radial-gradient(circle, rgba(47,148,254,1) 0%, rgba(15,108,140,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(47,148,254,1) 0%, rgba(15,108,140,1) 100%);
+    background: radial-gradient(circle, rgba(47,148,254,1) 0%, rgba(15,108,140,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2f94fe",endColorstr="#0f6c8c",GradientType=1);
 }
-
+.baselogo{
+    position: absolute;
+    width: 75px;
+}
+.mainlogo{
+    /* background-image: url("images/baselogo.png");
+    background-size: cover; */
+}
 nav {
     padding: 1rem;
 }
@@ -72,6 +83,7 @@ nav ul li a {
     margin-left: 6%;
     width: 50%;
     color: white;
+    font-weight: 100;
 }
 
 .right-section h3{
@@ -80,6 +92,7 @@ nav ul li a {
     margin-left: 15%;
     width: 50%;
     color: white;
+    font-weight: 100;
 }
 
 .right-section .socials{
@@ -105,6 +118,7 @@ nav ul li a {
     margin-left: 6%;
     width: 80%;
     color: white;
+    font-weight: 100;
 }
 
 .left-section h3{
@@ -146,10 +160,12 @@ nav ul li a {
     font-size: 30px;
     width: 100%;
     color: white;
+    font-weight: 100;
 }
 
 .right-section h2{
     margin-left: 15%;
     width: 50%;
     color: white;
+    font-weight: 100;
 }
